@@ -29,7 +29,7 @@ export function Root() {
     const name = localStorage.getItem("name");
     const animal = localStorage.getItem("animal");
     if (name && animal) navigate("/carecenter");
-  }, [navigate]);
+  }, []);
 
   return (
     <div className="w-screen h-screen flex justify-center items-center flex-row background">

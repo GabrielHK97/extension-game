@@ -164,8 +164,7 @@ export function CareCenter() {
     setupThirsty();
     setupLove();
     startClock();
-  }, [navigate, setupHungry, setupThirsty, setupLove, startClock]);
-
+  }, []);
   return (
     <div className="w-screen h-screen flex justify-center items-center flex-row background">
       <div className="w-2/5 h-full p-10">
