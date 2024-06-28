@@ -25,7 +25,7 @@ const Carousel = ({ className, images, animal }: IProps) => {
 
   useEffect(() => {
     animal(0);
-  }, []);
+  }, [animal]);
 
   return (
     <div className={`relative rounded-xl overflow-hidden ${className}`}>

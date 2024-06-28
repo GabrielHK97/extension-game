@@ -164,7 +164,7 @@ export function CareCenter() {
     setupThirsty();
     setupLove();
     startClock();
-  }, []);
+  }, [navigate, setupHungry, setupThirsty, setupLove, startClock]);
 
   return (
     <div className="w-screen h-screen flex justify-center items-center flex-row background">
@@ -172,7 +172,7 @@ export function CareCenter() {
         <div className="w-full h-full bg-orange-100 p-5 rounded-xl shadow-lg border-2 border-orange-800 text-xl flex flex-col justify-start items-center gap-2 text-justify">
           <div className="text-3xl">{name}</div>
           <div className="rounded-xl overflow-hidden">
-            <img src={images[animal ?? -1]} />
+            <img src={images[animal ?? -1]} alt="animal"/>
           </div>
           <div className="flex flex-col justify-center items-center w-full gap-2">
             <div className="w-full flex flex-row rounded-xl overflow-hidden bg-black p-1 gap-1">
