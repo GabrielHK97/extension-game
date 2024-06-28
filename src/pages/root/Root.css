@@ -1,0 +1,10 @@
+.background-image {
+    background-image: url("../../assets/zoo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.background {
+    background-color: #f3f5f5;
+}
