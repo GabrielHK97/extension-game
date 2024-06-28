@@ -130,7 +130,7 @@ export function CareCenter() {
     const differenceInMilliseconds = Math.abs(
       date2.getTime() - date1.getTime()
     );
-    return Math.floor(differenceInMilliseconds / (1000 * 3)) > 0;
+    return Math.floor(differenceInMilliseconds / (1000 * 60 * 5)) > 0;
   };
 
   function getRandomLevel() {
